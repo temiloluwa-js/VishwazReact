@@ -1,10 +1,14 @@
 import React from "react";
 
 const Greet = (props) => {
-    return ( 
-        <h1>Hello {props.name}</h1>
-     );
-}
- 
-export default Greet;
+  return (
+    <div>
+      <h1>
+        Hello {props.name} also known as {props.heroName}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
 
+export default Greet;
