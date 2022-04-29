@@ -10,6 +10,7 @@ import NameList from "./components/NameList";
 import ParentComponent from "./components/parentComponent";
 import UserGreeting from "./components/UserGreeting";
 import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/Inline";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <UserGreeting/>
       <NameList/>
       <Stylesheet/>
+      <Inline/>
     </div>
   );
 }
