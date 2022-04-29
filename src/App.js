@@ -9,6 +9,7 @@ import FunctionClick from "./components/FunctionClick";
 import NameList from "./components/NameList";
 import ParentComponent from "./components/parentComponent";
 import UserGreeting from "./components/UserGreeting";
+import Stylesheet from "./components/Stylesheet";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ParentComponent/> */}
       <UserGreeting/>
       <NameList/>
+      <Stylesheet/>
     </div>
   );
 }
