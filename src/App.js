@@ -15,6 +15,9 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
+import PureCompo from "./components/PureComponent";
+import MemoComponent from "./components/MemoComponent";
+import RefsDemo from "./components/RefsDemo";
 
 function App() {
   return (
@@ -30,9 +33,11 @@ function App() {
       <Stylesheet/>
       <Inline/> */}
       {/* <LifeCycleA/> */}
-      <Table/>
+      {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <Form/> */}
+      {/* <ParentComponent/> */}
+      <RefsDemo/>
     </div>
   );
 }
