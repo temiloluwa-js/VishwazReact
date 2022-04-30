@@ -11,6 +11,7 @@ import ParentComponent from "./components/parentComponent";
 import UserGreeting from "./components/UserGreeting";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -21,10 +22,11 @@ function App() {
       <Welcome name='Bruce Wayne' heroName='Batman'/> */}
       {/* <EventBind/>
       <ParentComponent/> */}
-      <UserGreeting/>
+      {/* <UserGreeting/>
       <NameList/>
       <Stylesheet/>
-      <Inline/>
+      <Inline/> */}
+      <Form/>
     </div>
   );
 }
