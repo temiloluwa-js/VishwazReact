@@ -12,6 +12,7 @@ import UserGreeting from "./components/UserGreeting";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <NameList/>
       <Stylesheet/>
       <Inline/> */}
+      <LifeCycleA/>
       <Form/>
     </div>
   );
