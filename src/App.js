@@ -13,6 +13,8 @@ import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -27,8 +29,10 @@ function App() {
       <NameList/>
       <Stylesheet/>
       <Inline/> */}
-      <LifeCycleA/>
-      <Form/>
+      {/* <LifeCycleA/> */}
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <Form/> */}
     </div>
   );
 }
