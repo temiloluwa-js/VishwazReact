@@ -19,6 +19,9 @@ import PureCompo from "./components/PureComponent";
 import MemoComponent from "./components/MemoComponent";
 import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
+import TestRef from "./components/TestRef";
+import RefsTest from "./components/RefsTest";
+import PortalDemo from "./components/PortalDemo";
 
 function App() {
   return (
@@ -38,11 +41,11 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <Form/> */}
       {/* <ParentComponent/> */}
-      <FocusInput/>
+      {/* <FocusInput/> */}
+      <RefsTest/>
+      <PortalDemo/>
     </div>
   );
 }
 
-ex9
-8port default App;
-01+
+export default App;
