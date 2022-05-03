@@ -1,15 +1,10 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import ErrorBoundary from "./ErrorBoundary";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
     <div className="App">
-
-      <ErrorBoundary>
-        <Hero heroName="Joker" />
-      </ErrorBoundary>
-      <Hero heroName='Bruce'/>
+      <HoverCounter name='Diana'/>
     </div>
   );
 }
