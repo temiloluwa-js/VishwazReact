@@ -1,15 +1,13 @@
 import "./App.css";
-import ClickCounterTwo from "./components/ClickCounterTwo";
-import HoverCounterTwo from "./components/HoverCounterTwo";
-import User from "./components/User";
-import Counter from "./Counter";
+import ComponentC from "./ComponentC";
+import { UserProvider } from "./userContext";
 
 function App() {
   return (
     <div className="App">
-      <Counter render={(count, incrementCount) => <ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
-      <Counter render={(count, incrementCount) => <HoverCounterTwo count={count} incrementCount={incrementCount}/>}/>
-
+      <UserProvider value="Vishwas">
+        <ComponentC />
+      </UserProvider>
     </div>
   );
 }
